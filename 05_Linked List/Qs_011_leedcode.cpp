@@ -37,7 +37,6 @@ public:
         ListNode *slow = head;
         ListNode *fast = head;
 
-        // 01 :- find there is a loop or not
         while(fast != NULL && fast->next != NULL){
             slow = slow->next;
             fast = fast->next->next;
